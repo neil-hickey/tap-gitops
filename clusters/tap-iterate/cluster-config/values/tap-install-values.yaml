@@ -11,3 +11,7 @@ tap_install:
       ingress_domain: "tap-iterate.local"
     buildservice:
       kp_default_repository: "tap-sm-docker-dev-local.dmz.packages.broadcom.com/tap-build-service"
+    ootb_supply_chain_basic:
+      registry:
+        server: "tap-sm-docker-dev-local.dmz.packages.broadcom.com"
+        repository: "tap-workloads"
