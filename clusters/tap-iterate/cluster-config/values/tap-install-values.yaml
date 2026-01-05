@@ -9,3 +9,5 @@ tap_install:
     profile: iterate
     shared:
       ingress_domain: "tap-iterate.local"
+    buildservice:
+      kp_default_repository: "tap-sm-docker-dev-local.dmz.packages.broadcom.com/tap-build-service"
