@@ -13,3 +13,4 @@ tap_install:
         tap_sensitive_values:
           sensitive_tap_values_yaml:
             key: secret/dev/tap-iterate/tap/sensitive-values.yaml
+            property: sensitive_tap_values_yaml

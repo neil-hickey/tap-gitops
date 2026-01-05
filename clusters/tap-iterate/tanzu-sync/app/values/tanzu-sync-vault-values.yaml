@@ -20,3 +20,4 @@ secrets:
       install_registry_dockerconfig:
         dockerconfigjson:
           key: secret/dev/tap-iterate/tanzu-sync/install-registry-dockerconfig
+          property: dockerconfigjson
