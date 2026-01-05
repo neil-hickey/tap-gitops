@@ -14,5 +14,5 @@ spec:
     kind: SecretStore
   refreshInterval: "1m"
   data:
-    - secretKey: sensitive-tap-values.yaml
+    - secretKey: values.yaml
       remoteRef: #@ data.values.tap_install.secrets.eso.remote_refs.tap_sensitive_values.sensitive_tap_values_yaml
