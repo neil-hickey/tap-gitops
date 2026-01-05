@@ -4,3 +4,8 @@ tap_install:
   version:
     package_repo_bundle_tag: 1.12.6-build.13
     package_version: 1.12.6-build.13
+  values:
+    ceip_policy_disclosed: true
+    profile: iterate
+    shared:
+      ingress_domain: "tap-iterate.local"
