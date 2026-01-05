@@ -15,3 +15,9 @@ tap_install:
       registry:
         server: "tap-sm-docker-dev-local.dmz.packages.broadcom.com"
         repository: "tap-workloads"
+    contour:
+      envoy:
+        service:
+          type: NodePort
+        workload:
+          replicas: 1
