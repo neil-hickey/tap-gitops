@@ -1,9 +1,9 @@
 tap_install:
   package_repository:
-    oci_repository: tap-sm-docker-dev-local.dmz.packages.broadcom.com/1.12.6-build.13/tanzu-application-platform/tap-packages
+    oci_repository: tap-sm-docker-dev-local.dmz.packages.broadcom.com/1.12.5/tanzu-application-platform/tap-packages
   version:
-    package_repo_bundle_tag: 1.12.6-build.13
-    package_version: 1.12.6-build.13
+    package_repo_bundle_tag: 1.12.5
+    package_version: 1.12.5
   values:
     ceip_policy_disclosed: true
     profile: iterate

@@ -3,7 +3,7 @@ tap_install:
   secrets:
     eso:
       vault:
-        server: http://172.18.0.5:8200
+        server: http://host.docker.internal:8200
         namespace: ""
         auth:
           kubernetes:
